@@ -1,0 +1,21 @@
+h2 {
+    color: green;
+}
+
+.dates{
+    color: gray;
+}
+
+time {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.author{
+    font-weight: bold;
+}
+
+.explanation{
+    font-style: italic;
+    color: blueviolet;
+}

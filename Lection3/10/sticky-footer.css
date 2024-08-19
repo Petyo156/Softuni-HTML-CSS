@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEE;
+    font-family: Lato, sans-serif;
+    font-size: smaller;
+    border: 1px solid green;
+}
+
+.site {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    min-height: 100vh;
+}
+
+.site > * {
+    border: 1px solid blue;
+    padding: 1em;
+}
+
+.site > main {
+    flex-grow: 1;
+}

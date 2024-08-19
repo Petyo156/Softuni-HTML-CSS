@@ -1,0 +1,40 @@
+article{
+    background-color: lightblue;
+}
+
+time{
+    color: fuchsia;
+    font-style: italic;
+}
+
+footer{
+    text-align: right;
+    color: gray;
+    font-style: italic;
+    font-size:x-small
+}
+
+.author{
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: x-large;
+    background-color: rgb(87, 81, 93);
+    color: rgba(255, 255, 255, 0.301);
+    text-align: center;
+}
+
+.homemenu{
+    font-style: italic;
+}
+
+aside>p{
+    text-align:center;
+    background-color: gainsboro;
+}
+aside>h4{
+    text-align: center;
+    
+}

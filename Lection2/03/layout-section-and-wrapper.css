@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 2px solid green;
+    padding: 2em;
+}
+
+.site {
+    border: 2px solid blue;
+    padding: 2em 2em 0em 2em;
+    margin: 0 auto;
+}
+
+.site > * {
+    border: 2px solid black;
+    margin-bottom: 2em;
+    padding: 2em;
+    text-align: left;
+}
+
+.wrapper {
+    border: 2px solid gray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

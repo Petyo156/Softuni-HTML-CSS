@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 "Inter", sans-serif;
+}
+
+body, input, button, textarea {
+    font: inherit;
+}
+
+body {
+    background-color: #85DCFF;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+.site {
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    padding: 2em 0em 2em 0em;
+    margin: 0 auto;
+}
+
+.my-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.4);
+}
+
+.image {
+    flex: 1;
+}
+
+.text {
+    flex: 2;
+}
+
+.header {
+    padding-right: 16em;
+    padding-bottom: 1em;
+}
+
+.main {
+    font-size: large;
+    padding-bottom: 1.5em;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button1 {
+    margin-right: 2em;
+}
+
+.button1,
+.button2 {
+    padding: 1em 2em 1em 2em;
+    border-radius: 5px;
+    border: none;
+}
+
+.button1 {
+    border: 1px solid black;
+    background-color: #42AA59;
+}
+
+.buttons .button1:hover{
+    background-color: #000000;
+    color: white;
+}

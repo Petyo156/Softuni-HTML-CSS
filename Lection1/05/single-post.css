@@ -1,0 +1,23 @@
+.name{
+    font-style: italic;
+}
+
+time{
+    color: firebrick;
+    font-style: italic;
+}
+
+p.comment{
+    color: lightcoral;
+}
+
+h1,h2{
+    font-style: italic;
+}
+
+footer{
+    color: rgb(21, 74, 37);
+    font-style: italic;
+    background-color: #abbaba;
+    text-align: center;
+}

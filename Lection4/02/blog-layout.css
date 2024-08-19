@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+    background-color: #eee;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+header.site-header{
+    display: block;
+    width: 100%; 
+}
+
+.site {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 6px 6px 2px rgb(190, 186, 186);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+h1{
+    width: 100%;
+}
+
+.site .site-header .title{
+    color: green;
+    padding: 0.5em;
+    display: flex;
+}
+
+.site-header > .list {
+    display: flex;
+
+    background-color: rgb(206, 206, 206);
+    padding: 0.3em;
+
+    justify-content: space-evenly;
+}
+
+.site-header > .list > p{
+    padding: 0.5em;
+    background-color: rgb(175, 173, 173);
+    border: 1px solid rgb(143, 133, 133);
+}
+
+.site-header > .list > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+.site-header > .list > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+.site-header > .list > p >a:hover{
+    text-decoration: underline;
+}
+
+.site > main > p  {
+    padding-top: 1em;
+}
+
+.site > main {
+    padding: 2em;
+}
+
+
+.site-main{
+    flex: 1 0 60%;
+}
+
+.site-aside {
+    flex: 0 0 30%;
+    padding: 2em;
+}
+
+.site-footer{
+    width: 100%;
+    background-color: rgb(156, 153, 153);
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+@media (max-width: 500px) {
+    .site-header > .list {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: gray;
+        flex-direction: column;
+        display: block;
+    }
+    .site-header > .list > p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-main,
+    .site-aside{
+        flex: 0 100%;
+        padding: 0 2em 2em 2em;
+    }
+}    
